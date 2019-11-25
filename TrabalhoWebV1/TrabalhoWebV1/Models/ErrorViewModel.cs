@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TrabalhoWebV1.Models
 {
-    public class ErroViewModel
+    public class ErrorViewModel
     {
         public string RequestId { get; set; }
 

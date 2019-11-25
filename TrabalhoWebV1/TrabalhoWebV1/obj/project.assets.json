@@ -13109,11 +13109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diogo\\source\\repos\\TrabalhoWebV1\\TrabalhoWebV1\\TrabalhoWebV1.csproj",
+      "projectUniqueName": "C:\\Users\\diogo\\Documents\\TrabalhoWeb\\TrabalhoWebV1\\TrabalhoWebV1\\TrabalhoWebV1.csproj",
       "projectName": "TrabalhoWebV1",
-      "projectPath": "C:\\Users\\diogo\\source\\repos\\TrabalhoWebV1\\TrabalhoWebV1\\TrabalhoWebV1.csproj",
+      "projectPath": "C:\\Users\\diogo\\Documents\\TrabalhoWeb\\TrabalhoWebV1\\TrabalhoWebV1\\TrabalhoWebV1.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diogo\\source\\repos\\TrabalhoWebV1\\TrabalhoWebV1\\obj\\",
+      "outputPath": "C:\\Users\\diogo\\Documents\\TrabalhoWeb\\TrabalhoWebV1\\TrabalhoWebV1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
