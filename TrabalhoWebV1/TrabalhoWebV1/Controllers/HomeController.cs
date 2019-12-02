@@ -10,6 +10,7 @@ namespace TrabalhoWebV1.Controllers
 {
     public class HomeController : Controller
     {
+        private AppContext appContext;
         public IActionResult Index()
         {
             return View();
