@@ -9,8 +9,8 @@ using TrabalhoWebV1;
 namespace TrabalhoWebV1.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20191125215404_migracao_models")]
-    partial class migracao_models
+    [Migration("20191203023806_migracao")]
+    partial class migracao
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

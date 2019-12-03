@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+}
+
+@model TrabalhoWebV1.Models.Desenvolvedor
+
+<h3>@ViewData["Title"]</h3>
+
+<section class="py-3">
+    <div class="card">
+        <div class="card-body">
+            <form method="post">
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" class="form-control" asp-for="nome">
+                    <small>
+                        <span asp-validation-for="nome" class="text-danger"></span>
+                    </small>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" asp-for="email">
+                    <small>
+                        <span asp-validation-for="email" class="text-danger"></span>
+                    </small>
+                </div>
+                <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="admin" asp-for="adm">
+                        <label class="custom-control-label" for="admin">É Administrador?</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Senha</label>
+                    <input type="password" class="form-control" asp-for="senha">
+                    <small>
+                        <span asp-validation-for="senha" class="text-danger"></span>
+                    </small>
+                </div>
+                <div class="form-group">
+                    <label>Confirme</label>
+                    <input type="password" class="form-control" asp-for="tempSenha">
+                    <small>
+                        <span asp-validation-for="tempSenha" class="text-danger"></span>
+                    </small>
+                </div>
+                <div class="text-right">
+                    <a class="btn btn-secondary" asp-area="" asp-controller="Dashboard" asp-action="Index" asp-route-id="">Cancelar</a>
+                    <button type="submit" class="btn btn-primary">Confirmar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

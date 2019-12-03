@@ -55,3 +55,8 @@ C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netco
 C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\TrabalhoWebV1.dll
 C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\TrabalhoWebV1.pdb
 C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\TrabalhoWebV1.csproj.CopyComplete
+C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Cadastro.cshtml.g.cs
+C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\Razor\Views\Projetos\Form.cshtml.g.cs
+C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\Razor\Views\Projetos\Index.cshtml.g.cs
+C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\Razor\Views\Requisitos\form.cshtml.g.cs
+C:\Users\diogo\Documents\TrabalhoWeb\TrabalhoWebV1\TrabalhoWebV1\obj\Debug\netcoreapp2.2\Razor\Views\Requisitos\Index.cshtml.g.cs

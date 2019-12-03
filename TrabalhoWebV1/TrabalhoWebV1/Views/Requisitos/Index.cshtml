@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Requisitos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<section class="py-3">
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-6">
+                    1
+                </div>
+                <div class="col-6">
+                    <div class="text-right">
+                        <a asp-area="" asp-controller="Requisitos" asp-action="New">
+                            <i class="fas fa-plus-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <table class="table table-borderless table-hover">
+            <thead class="border-bottom">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Observações</th>
+                    <th scope="col">É Funcional</th>
+                    <th scope="col">Data de Cadastro</th>
+                    <th scope="col">Data de Entrega</th>
+                    <th scope="col">Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Requisito r in ViewBag.Requisitos)
+                {
+                    <tr>
+                        <td>@r.Id</td>
+                        <td>@r.descricao</td>
+                        <td>@r.observacoes</td>
+                        <td>@r.funcional</td>
+                        <td>@r.dataCadastro.ToString("dd/MM/yyyy")</td>
+                        <td>@r.dataEntrega.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            <a asp-area="" asp-controller="Requisitos" asp-action="Edit" asp-route-id="@r.Id">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <a asp-area="" asp-controller="Requisitos" asp-action="Del" asp-route-id="@r.Id">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
